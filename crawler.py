@@ -115,7 +115,7 @@ class Agent2:
                 
                     self.dataframe1 = self.dataframe1.append(dataframe)
                 
-                monitor = "C:/0.ITStudy/2.java/GAZUUAA/GAZUUAA.csv"
+                monitor = "userpath" #경로 작성
                 self.dataframe1.to_csv(monitor, index = False)
                 
                         
